@@ -33,3 +33,7 @@ doc中有个 THTensor_(add) 按 int 类型展开的例子。
 在 win7 下用的 mingw + cmake + vscode(用了几个vscode中的cmake插件)[编译](http://www.cnblogs.com/shepherd2015/p/7874386.html)。
 或者直接切换到 main.c 所在文件夹运行  
 **gcc main.c ./TH/*.c -o demo -w**  
+<br>
+<br>
+**2018年9月2日18:07:11**  
+pytorch 已经发生了很大的变化，之前读的代码已经没啥用了，之前的TH库要被废弃了，搜到的一篇较新的博客 [从头开始阅读PyTorch代码 -- Operators篇](https://zasdfgbnm.github.io/2018/06/11/%E4%BB%8E%E5%A4%B4%E5%BC%80%E5%A7%8B%E9%98%85%E8%AF%BBPyTorch%E4%BB%A3%E7%A0%81%20--%20Operators%E7%AF%87/)，一直在等1.0版出来，出来后再读源码吧。
